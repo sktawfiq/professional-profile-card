@@ -25,13 +25,15 @@ This is my first project in my Full-Stack Web Development Bootcamp.
 
 ## 📂 Project Structure
 
+```
 professional-profile-card
 
 ├── index.html
 ├── style.css
 ├── README.md
 └── assets
-└── profile-image.jpg
+    └── profile-image.jpg
+```
 
 ## 🎯 Learning Objectives
 
