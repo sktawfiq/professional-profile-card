@@ -22,3 +22,29 @@ header img {
     height: 150px;
     border-radius: 50%;
 }
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+header p {
+    color: #555;
+    font-size: 18px;
+}
+
+main section {
+    background-color: white;
+    padding: 25px;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+section h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+ul {
+    line-height: 1.8;
+}
