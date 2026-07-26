@@ -1,19 +1,52 @@
 # Professional Profile Card
 
-A responsive developer profile card built using semantic HTML5 and CSS3.
+A responsive personal profile card built using HTML5 and CSS3.
 
-## Technologies
+This is my first project in my Full-Stack Web Development Bootcamp.
+
+## 🚀 Features
+
+- Semantic HTML structure
+- Responsive layout
+- Profile image section
+- About section
+- Skills section
+- Contact links
+- Mobile-friendly design
+
+## 🛠 Technologies Used
 
 - HTML5
 - CSS3
 
-## Features
+## 📸 Screenshot
 
-- Developer introduction
-- Skills section
-- Contact links
-- Responsive card layout
+![Profile Card Screenshot](assets/profile-card-preview.png)
 
-## Purpose
+## 📂 Project Structure
 
-This project is part of my full-stack web development bootcamp journey.
+professional-profile-card
+
+├── index.html
+├── style.css
+├── README.md
+└── assets
+└── profile-image.jpg
+
+## 🎯 Learning Objectives
+
+Through this project I practiced:
+
+- Semantic HTML
+- CSS selectors
+- CSS cascade
+- Box model
+- Responsive design
+- Git and GitHub workflow
+
+## 🔮 Future Improvements
+
+- Add animations
+- Add dark mode
+- Improve accessibility
+- Add social media icons
