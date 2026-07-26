@@ -9,3 +9,16 @@ footer {
     max-width: 600px;
     margin: 20px auto;
 }
+
+header {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
