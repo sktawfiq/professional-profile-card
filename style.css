@@ -1,64 +1,105 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
 }
 
 header,
 main,
 footer {
-    max-width: 600px;
-    width: 90%;
-    margin: 20px auto;
+  max-width: 600px;
+  width: 90%;
+  margin: 20px auto;
 }
 
 header {
-    background-color: white;
-    padding: 30px;
-    border-radius: 12px;
-    text-align: center;
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
 }
 
 header img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 header h1 {
-    margin-bottom: 10px;
-    font-size: 32px;
+  margin-bottom: 10px;
+  font-size: 32px;
 }
 
 header p {
-    color: #555;
-    font-size: 18px;
+  color: #555;
+  font-size: 18px;
 }
 
 main section {
-    background-color: white;
-    padding: 25px;
-    margin-top: 20px;
-    border-radius: 12px;
+  background-color: white;
+  padding: 25px;
+  margin-top: 20px;
+  border-radius: 12px;
 }
 
 section h2 {
-    color: #333;
-    margin-bottom: 15px;
+  color: #333;
+  margin-bottom: 15px;
 }
 
 ul {
-    line-height: 1.8;
+  line-height: 1.8;
 }
 
 @media (max-width: 480px) {
+  header h1 {
+    font-size: 26px;
+  }
+}
 
-    header h1 {
-        font-size: 26px;
-    }
+.pricing-card {
+  width: 90%;
+  max-width: 350px;
+  padding: 30px;
+  margin: 40px auto;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+}
 
+.pricing-card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.price {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 25px;
+}
+
+.pricing-card li {
+  margin-bottom: 10px;
+}
+
+.pricing-card button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.pricing-card button:hover {
+  opacity: 0.8;
 }
